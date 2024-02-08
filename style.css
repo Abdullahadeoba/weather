@@ -2,7 +2,8 @@
     overflow: hidden;
 } */
 body {
-    background-image: url("images/bg.jpg");
+    /* background-image: url("images/bg.jpg"); */
+    background: linear-gradient(135deg, #67fe23, #ef32ef);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
