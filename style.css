@@ -13,6 +13,12 @@ body {
     bottom: 0px;
     right: 15px;
   }
+  @media screen and (max-width:475px){
+    .waterMark{
+      padding:0 0 0 10px;
+      /* font-size: 30px; */
+    }
+  }
   .details {
     backdrop-filter: blur(3px);
     /* width: 22%; */
