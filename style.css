@@ -1,6 +1,4 @@
-/* html body {
-    overflow: hidden;
-} */
+
 body {
    background-image: url("images/background.jpg");
    background-repeat: no-repeat;
@@ -20,6 +18,12 @@ body {
   }
   .city {
   text-transform: capitalize;
+  }
+  button:hover{
+    transition: 5.5s;
+    /* width: 50%; */
+    background-color: red ;
+    font-size: 20px;
   }
   /* .input {
     height: 40px;
