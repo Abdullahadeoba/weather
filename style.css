@@ -12,15 +12,8 @@ body {
     bottom: 0px;
     right: 15px;
   }
-  @media screen and (max-width:475px){
-    .waterMark{
-      padding:0 0 0 10px;
-      /* font-size: 30px; */
-    }
-  }
   .details {
     backdrop-filter: blur(3px);
-    /* width: 22%; */
   }
   .temp {
     font-size: 155px;
@@ -28,14 +21,10 @@ body {
   .city {
   text-transform: capitalize;
   }
-  
-  /* another */
-  
-  
-  .input {
+  /* .input {
     height: 40px;
     line-height: 28px;
-    /* padding: 0 1rem; */
+    padding: 0 1rem;
     width: 80%;
     padding-left: .5rem;
     outline: none;
@@ -45,7 +34,7 @@ body {
     border: none;
     border-bottom: 1px solid white;
   }
-  
+   */
   ::placeholder{
     text-align:center;
   }
@@ -54,9 +43,13 @@ body {
   }
   
   .input:focus::placeholder {
-    color: #999;
+    color: black;
   }
-  
+  @media screen and (min-width:475px) {
+    .waterMark{
+      display: none;
+    }
+  }
   /* .icon {
     position: absolute;
     right: 1rem;
