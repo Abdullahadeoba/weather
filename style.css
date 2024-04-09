@@ -19,11 +19,15 @@ body {
   .city {
   text-transform: capitalize;
   }
+  button{
+    background: gray;
+  }
   button:hover{
-    transition: 5.5s;
-    /* width: 50%; */
-    background-color: red ;
+    transition: 2.5s;
     font-size: 20px;
+    height: 10%;
+    background:linear-gradient(45deg, #3f2ec3, #2fce23);
+    border-radius: 30px;
   }
   /* .input {
     height: 40px;
